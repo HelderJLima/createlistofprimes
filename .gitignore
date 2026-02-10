@@ -1,0 +1,67 @@
+# ============================
+# Build directories
+# ============================
+
+build/
+Debug/
+Release/
+x64/
+x86/
+
+# ============================
+# Compiled binaries
+# ============================
+
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+
+# ============================
+# Visual Studio files
+# ============================
+
+.vs/
+*.filters
+*.suo
+*.user
+*.userosscache
+*.sln
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.vcxproj
+
+# ============================
+# Temporary / cache files
+# ============================
+
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.cache
+
+# ============================
+# OS generated files
+# ============================
+
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Program runtime files
+# ============================
+
+logs/*
+lists/*
+
+!lists/examples/
+!lists/examples/**
+
+!logs/examples/
+!logs/examples/**
