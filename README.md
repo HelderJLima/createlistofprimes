@@ -78,11 +78,15 @@ createlistofprimes <limit> [--file-name]
 
 Generate primes up to 500 using the default file name:
 
+``` 
 createlistofprimes 500
+``` 
 
 Generate primes up to 500 using a custom file name:
 
+``` 
 createlistofprimes 500 --file-name
+``` 
 
 ---
 
@@ -94,15 +98,21 @@ The generated file is saved inside the `lists/` directory.
 
 #### Default Name
 
+``` 
 lists/list_of_primes.txt
+``` 
 
 #### With `--file-name` Option
 
+``` 
 lists/list_of_primes_up_to_<limit>.txt
+``` 
 
 Example:
 
+``` 
 lists/list_of_primes_up_to_500.txt
+``` 
 
 ---
 
@@ -114,13 +124,16 @@ Each output file follows this structure:
   Contains the total number of primes and the largest prime found, using the
   format:
 
+``` 
 quantity=<count>,last=<largest_prime>
+``` 
 
 - Line 2 onward:  
 One prime number per line.
 
 Example:
 
+``` 
 quantity=95,last=499
 2
 3
@@ -128,6 +141,7 @@ quantity=95,last=499
 7
 11
 ...
+``` 
 
 ---
 
@@ -135,7 +149,9 @@ quantity=95,last=499
 
 The largest prime number found during execution is stored in:
 
+``` 
 logs/primelog
+``` 
 
 This file can be used by other applications to access the latest computed
 result.
@@ -174,7 +190,9 @@ This project can be compiled using standard C compilers on Windows.
 
 Example (GCC / MinGW):
 
+``` 
 gcc -o createlistofprimes src/main.c src/*.c
+``` 
 
 Adjust paths as needed depending on your project structure.
 
