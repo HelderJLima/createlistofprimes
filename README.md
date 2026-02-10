@@ -32,9 +32,11 @@ The project is currently complete and stable.
 Before execution, the following directories must exist in the program's root
 directory:
 
+``` 
 createlistofprimes/
 ├── lists/
 └── logs/
+``` 
 
 - `lists/`  
   Stores the generated lists of prime numbers.
